@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>QQ音乐</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<audio src="mp3/北京东路的日子.mp3"></audio>
+	<div class="zhubody">
+		<div class="header">
+            <!--<div class="qq">-->
+                <!--<img src="image/qq.png" alt="">-->
+            <!--</div>-->
+            <div class="touxiang"></div>
+            <div class="denglu">
+                <div class="qqyinyue">QQ音乐</div>
+                <span>|</span>
+                <div class="login">登录</div>
+                <div class="dengluzi">登录听歌加速QQ等级</div>
+            </div>
+            <div class="leftjian"></div>
+            <div class="rightjian"></div>
+            <div class="shuaxin"></div>
+            <input type="text" placeholder="中国新歌声">
+            <div class="fangdajing"></div>
+            <div class="shiqu"></div>
+            <div class="vip"></div>
+            <div class="tongzhi"></div>
+            <div class="pifu"></div>
+            <div class="zhucaidan"></div>
+            <div class="span"></div>
+            <div class="suoxiao"></div>
+            <div class="zuixiao"></div>
+            <div class="shiying"></div>
+                <!--<a href="javascript:window.opener=null;window.open('','_self');window.close();"><div class="guanbi"></div></a>-->
+            <div class="guanbi"></div>
+		</div>
+		<div class="body">
+            <div class="liebiao">
+                <div class="zaixian">在线音乐</div>
+                <div class="yinyueguan">
+                    <div class="yintu"></div>
+                    <div class="guanzi">音乐馆</div>
+                </div>
+                <div class="diantai">
+                    <div class="diantu"></div>
+                    <div class="taizi">电台</div>
+                </div>
+                <div class="mv">
+                    <div class="mvtu"></div>
+                    <div class="mvzi">MV</div>
+                </div>
+                <div class="gexingdiantai">
+                    <div class="gexingtu"></div>
+                    <div class="gexingzi">个性电台</div>
+                </div>
+                <div class="xingesheng">
+                    <div class="xingetu"></div>
+                    <div class="zhongguozi">中国新歌声</div>
+                </div>
+                <div class="wodeyinyue">我的音乐</div>
+                <div class="woxihuan list">
+                    <div class="woxitu"></div>
+                    <div class="xihuanzi">我喜欢</div>
+                </div>
+                <div class="shiting list">
+                    <div class="shitingtu"></div>
+                    <div class="shitingzi">试听列表</div>
+                </div>
+                <div class="bofanglishi list">
+                    <div class="lishitu"></div>
+                    <div class="lishizi">播放历史</div>
+                </div>
+                <div class="bendi list">
+                    <div class="benditu"></div>
+                    <div class="bendizi">本地歌曲</div>
+                </div>
+                <div class="xiazaigequ list">
+                    <div class="xiazaitu"></div>
+                    <div class="xiazaizi">下载歌曲</div>
+                </div>
+                <div class="chuange list">
+                    <div class="chuangetu"></div>
+                    <div class="chuangezi">传歌到设备</div>
+                </div>
+            </div>
+            <div class="yemian">
+                <div class="yemianbox">
+                    <div class="shitingliebiao">
+                        <div class="liebiaozi">
+                            <img src="image/心.png" alt="">
+                            <div class="liedazi">我喜欢</div>
+                            <!--<div class="jishou"></div>-->
+                        </div>
+                        <div class="anniu">
+                            <div class="bofangquanbu">
+                                <div class="bofangquanbutu"></div>
+                                <div class="bofangquanuzi">播放全部</div>
+                            </div>
+                            <div class="xiazaianniu">
+                                <div class="xiazaianniutu"></div>
+                                <div class="xiazaianniuzi">下载</div>
+                            </div>
+                            <div class="piliang">
+                                <div class="piliangtu"></div>
+                                <div class="piliangzi">批量操作</div>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="搜索试听列表的歌曲">
+                            <div class="shu"></div>
+                            <div class="jing"></div>
+                        </div>
+                    </div>
+                    <div class="mulu">
+                        <div class="song">
+                            <div class="songzi">歌曲</div>
+                            <div class="songzijian">
+                            </div>
+                        </div>
+                        <div class="songer">&nbsp;&nbsp;&nbsp;歌手</div>
+                        <div class="zhuanji">&nbsp;&nbsp;&nbsp;专辑</div>
+                        <div class="shichang">&nbsp;&nbsp;&nbsp;时长</div>
+                    </div>
+                    <div class="lielist"></div>
+                </div>
+            </div>
+
+            <div class="yemian">
+                <div class="yemianbox">
+                    <div class="shitingliebiao">
+                        <div class="liebiaozi">
+                            <div class="liedazi">试听列表</div>
+                            <div class="jishou"></div>
+                        </div>
+                        <div class="anniu">
+                            <div class="bofangquanbu">
+                                <div class="bofangquanbutu"></div>
+                                <div class="bofangquanuzi">播放全部</div>
+                            </div>
+                            <div class="xiazaianniu">
+                                <div class="xiazaianniutu"></div>
+                                <div class="xiazaianniuzi">下载</div>
+                            </div>
+                            <div class="piliang">
+                                <div class="piliangtu"></div>
+                                <div class="piliangzi">批量操作</div>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="搜索试听列表的歌曲">
+                            <div class="shu"></div>
+                            <div class="jing"></div>
+                        </div>
+                    </div>
+                    <div class="mulu">
+                        <div class="song">
+                            <div class="songzi">歌曲</div>
+                            <div class="songzijian">
+                            </div>
+                        </div>
+                        <div class="songer">&nbsp;&nbsp;&nbsp;歌手</div>
+                        <div class="zhuanji">&nbsp;&nbsp;&nbsp;专辑</div>
+                        <div class="shichang">&nbsp;&nbsp;&nbsp;时长</div>
+                    </div>
+                    <div class="lielist"></div>
+                </div>
+            </div>
+
+            <div class="yemian">
+                <div class="yemianbox">
+                    <div class="shitingliebiao">
+                        <div class="liebiaozi">
+                            <div class="liedazi">播放历史</div>
+                            <div class="jishou"></div>
+                        </div>
+                        <div class="anniu">
+                            <div class="bofangquanbu">
+                                <div class="bofangquanbutu"></div>
+                                <div class="bofangquanuzi">播放全部</div>
+                            </div>
+                            <div class="xiazaianniu">
+                                <div class="xiazaianniutu"></div>
+                                <div class="xiazaianniuzi">下载</div>
+                            </div>
+                            <div class="piliang">
+                                <div class="piliangtu"></div>
+                                <div class="piliangzi">批量操作</div>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="搜索播放历史列表的歌曲">
+                            <div class="shu"></div>
+                            <div class="jing"></div>
+                        </div>
+                    </div>
+                    <div class="mulu">
+                        <div class="song">
+                            <div class="songzi">歌曲</div>
+                            <div class="songzijian">
+                            </div>
+                        </div>
+                        <div class="songer">&nbsp;&nbsp;&nbsp;歌手</div>
+                        <div class="zhuanji">&nbsp;&nbsp;&nbsp;专辑</div>
+                        <div class="shichang">&nbsp;&nbsp;&nbsp;时长</div>
+                    </div>
+                    <div class="lielist"></div>
+                </div>
+            </div>
+
+            <div class="yemian">
+                <div class="yemianbox">
+                    <div class="shitingliebiao">
+                        <div class="liebiaozi">
+                            <div class="liedazi">本地歌曲</div>
+                            <div class="jishou"></div>
+                        </div>
+                        <div class="anniu">
+                            <div class="bofangquanbu">
+                                <div class="bofangquanbutu"></div>
+                                <div class="bofangquanuzi">播放全部</div>
+                            </div>
+                            <div class="piliang">
+                                <div class="piliangtu"></div>
+                                <div class="piliangzi">批量操作</div>
+                            </div>
+                            <div class="xiazaianniu">
+                                <div class="gengduozi">更多</div>
+                                <div class=" gengduo"></div>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="搜索本地列表的歌曲">
+                            <div class="shu"></div>
+                            <div class="jing"></div>
+                        </div>
+                    </div>
+                    <div class="mulu">
+                        <div class="song">
+                            <div class="songzi">歌曲</div>
+                            <div class="songzijian">
+                            </div>
+                        </div>
+                        <div class="songer">&nbsp;&nbsp;&nbsp;歌手</div>
+                        <div class="zhuanji">&nbsp;&nbsp;&nbsp;专辑</div>
+                        <div class="shichang">&nbsp;&nbsp;&nbsp;时长</div>
+                    </div>
+                    <div class="lielist"></div>
+                </div>
+            </div>
+
+            <div class="yemian">
+                <div class="yemianbox">
+                    <div class="shitingliebiao">
+                        <div class="liebiaozi">
+                            <div class="liedazi">下载的歌曲</div>
+                        </div>
+                        <div class="anniu">
+                            <div class="bofangquanbu">
+                                <div class="bofangquanbutu"></div>
+                                <div class="bofangquanuzi">播放全部</div>
+                            </div>
+                            <!--<div class="xiazaianniu">-->
+                                <!--<div class="xiazaianniutu"></div>-->
+                                <!--<div class="xiazaianniuzi">下载</div>-->
+                            <!--</div>-->
+                            <div class="piliang">
+                                <div class="piliangtu"></div>
+                                <div class="piliangzi">批量操作</div>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="搜索已下载列表的歌曲">
+                            <div class="shu"></div>
+                            <div class="jing"></div>
+                        </div>
+                    </div>
+                    <div class="mulu">
+                        <div class="song">
+                            <div class="songzi">歌曲</div>
+                            <div class="songzijian">
+                            </div>
+                        </div>
+                        <div class="songer">&nbsp;&nbsp;&nbsp;歌手</div>
+                        <div class="zhuanji">&nbsp;&nbsp;&nbsp;专辑</div>
+                        <div class="shichang">&nbsp;&nbsp;&nbsp;时长</div>
+                    </div>
+                    <div class="lielist"></div>
+                </div>
+            </div>
+
+            <div class="yemian">
+                <div class="lianjie">请连接设备</div>
+                <div class="zhongtu">
+                    <img src="image/lianjie.png" alt="">
+                </div>
+                <div class="lianjiebtn">
+                    <div class="leftlian">您可以将电脑中的歌曲传导设备，无需流量</div>
+                    <div class="youlian">连接设备</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="playpage">
+            <img class="blur" src="" alt="">
+            <div class="datubox">
+            <div class="datu">
+            <img src="" alt="">
+            </div>
+            </div>
+            <div class="gecibox">
+                <div class="gequmingcheng"></div>
+                <div class="geshoumingzi">
+                    <div class="singer">歌手：</div>
+                    <div class="singerName"></div>
+                </div>
+                <div class="zhuanjimingzi">
+                    <div class="vidio">专辑：</div>
+                    <div class="vidioName"></div>
+                </div>
+                <div class="gecisousuo">未搜索到歌词</div>
+                <div class="gecisousuo">未搜索到歌词</div>
+                <div class="gecisousuo">未搜索到歌词</div>
+                <div class="gecisousuo">未搜索到歌词</div>
+                <div class="gecisousuo">未搜索到歌词</div>
+                <div class="gecisousuo">未搜索到歌词</div>
+            </div>
+        </div>
+		<div class="foot">
+			<div class="play-btn">
+				<div class="left-btn">
+				</div>
+				<div class="mid-btn">
+				</div>
+				<div class="right-btn">
+				</div>
+			</div>
+			<div class="rode">
+				<div class="pic">
+                    <img src="" alt="">
+                </div>
+                <div class="zhezhao">
+                    <div class="img"></div>
+                    <!--<img src="image/shuangjiantou.png" alt="">-->
+                </div>
+				<div class="jindu">
+					<div class="name">
+                        <div class="geming"></div>
+                        <div class="geshou"></div>
+                    </div>
+					<div class="time">
+                        <div class="dangqian"></div>
+                        <div class="xiegang">/</div>
+                        <div class="zonggong"></div>
+                    </div>
+					<div class="jindutiao">
+                        <div class="yuan"></div>
+                        <div class="zoudong"></div>
+                    </div>
+				</div>
+			</div>
+			<div class="yinzhi">
+				<div class="biaozhun">
+				</div>
+				<div class="yinzhi">
+				</div>
+			</div>
+			<div class="xihuan"></div>
+			<div class="xiazai"></div>
+			<div class="duihua"></div>
+			<div class="yinliang con"></div>
+            <div class="yinkuang">
+                <div class="yinliangtiao">
+                    <div class="yinyuan"></div>
+                    <div class="yintiao"></div>
+                </div>
+                <div class="hengxian"></div>
+                <div class="laba"></div>
+            </div>
+
+			<div class="geci"></div>
+			<div class="paixu con"></div>
+            <div class="paixukuang">
+                <div class="suiji">
+                    <img src="image/suiji.png" alt="">
+                    <div class="suijizi">随机播放</div>
+                </div>
+                <div class="heng"></div>
+                <div class="shunxu">
+                    <img src="image/shunxu.png" alt="">
+                    <div class="shunxuzi">顺序播放</div>
+                </div>
+                <div class="heng"></div>
+                <div class="danqu">
+                    <img src="image/danqu.png" alt="">
+                    <div class="danquzi">单曲播放</div>
+                </div>
+                <div class="heng"></div>
+                <div class="lie">
+                    <img src="image/kuangxun.png" alt="">
+                    <div class="liezi">列表播放</div>
+                </div>
+            </div>
+			<div class="gedan con"></div>
+            <div class="gedanlist">
+                <div class="listname">
+                    <div class="leftzi">wqeqw</div>
+                    <div class="rightzi">清空</div>
+                </div>
+
+
+            </div>
+			<div class="geshu"></div>
+		</div>
+	</div>
+</body>
+</html>
